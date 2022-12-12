@@ -1,0 +1,11 @@
+#Calcula el septuagésimo tercer (73º) número primo, con una función.
+contador = 0
+last_prime = 1
+next_number = 2
+print (2)
+while contador<72:
+  next_number = next_number + 1
+  if es_primo (next_number):
+    contador = contador + 1
+    last_prime = next_number
+    print (last_prime)   
